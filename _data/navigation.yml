@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "About"
-    url: https://github.com/SniKuz/SniKuz.github.io/blob/master/_pages/about.md
+    url: /about/
   - title: "Category"
     url: /categories/
   - title: "Tag"
