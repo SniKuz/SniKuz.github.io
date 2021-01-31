@@ -95,8 +95,8 @@ analytics:
 author:
   name             : "SniKuz"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am a student who wants to make **amazing game**"
-  location         : "South Korea - Seoul"
+  bio              : "Studying game development and designing"
+  location         : "South Korea"
   email            : "ayyjh321@gmail.com"
   links:
     - label: "Email"
