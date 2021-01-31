@@ -2,7 +2,6 @@
 
 ---
 
-<img src="https://github.com/SniKuz/SniKuz.github.io/blob/master/assets/images/portrait_Sketch.png" height="50%" width="50%"/>
 
 <center> <h4>Student who wants to be good programmer and designer</h4> </center>
 
