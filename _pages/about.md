@@ -2,6 +2,7 @@
 title: "About"
 layout: about
 permalink: /about/
+author_profile: true
 ---
 
 <center> <h1>About</h1></center>
