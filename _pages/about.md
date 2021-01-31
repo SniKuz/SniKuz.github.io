@@ -7,7 +7,7 @@ permalink: /about/
 <center> <h1>About</h1></center>
 
 ---
-<center><img src="https://github.com/SniKuz/SniKuz.github.io/blob/master/assets/images/portrait_Sketch.png" height=400 width=300/></center>
+<center> ![title](/images/portrait_Sketch.png)</center>
 
 <center> <h4>Student who wants to be good programmer and designer</h4> </center>
 
