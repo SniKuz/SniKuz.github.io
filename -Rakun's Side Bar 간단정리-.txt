@@ -3,7 +3,7 @@
 2.sidebar.html에     {% include taxonomy-list.html category_name="Test" %} 추가(뒤 category_name= ~ 은 호출)
 3.includes/taxonomy-item.html 생성
 4.includes/taxonmy-list.html생성
-5._pages/Category에 이제 해당 카테고리 분류 md 만듬.
+5._pages/Category에 이제 해당 카테고리 분류 md 만듬. 그러면 끝!
 ---
 title           : "Default"
 layout          : category
