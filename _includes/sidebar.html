@@ -14,6 +14,11 @@
     {% if page.sidebar.nav %}
       {% include nav_list nav=page.sidebar.nav %}
     {% endif %}
+
+    <div class = "sidebar_taxonomy">
+      {% include taxonomy-list.html %}
+    </div>
+
   {% endif %}
   </div>
 {% endif %}

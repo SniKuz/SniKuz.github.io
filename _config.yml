@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "dark" # "default", "air", "aqua", "contrast", "dark"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "SniKuz 정리공간"
+title                    : "SniKuz 정리공간🎮"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "SniKuz"
@@ -280,3 +280,39 @@ defaults:
       share: true
       related: true
       show_date: true
+      sidebar: true
+   # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      sidebar: true
+  # _recipes
+  - scope:
+      path: "_recipes"
+      type: recipes
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      sidebar: true
+  # _pets
+  - scope:
+      path: "_pets"
+      type: pets
+    values:
+      layout: single
+      author_profile: true
+      share: true
+  # _portfolio
+  - scope:
+      path: "_portfolio"
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+      share: true
+      sidebar: true
+

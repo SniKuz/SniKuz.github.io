@@ -8,6 +8,7 @@ permalink: /about/
 
 입대 전까지는 대충 막 넣어서 저장용으로 쓰지만, 전역 후에는 제대로 만들어보자!
 <br>지금은 미약하지만 더 재밌고 좋게 만들자!
+<br> 입대 전까지 매주 그림 1, 2개 / 알고리즘 공부 1, 2개 / 유니티 정리 / 1, 2학년 공부 정리를 목표로?
 
 ---
 <center><img data-action="zoom" src='{{ "assets/images/portrait_Sketch.png" | relative_url }}' alt='absolute' style="zoom:20%;"></center>

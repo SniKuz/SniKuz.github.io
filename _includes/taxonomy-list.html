@@ -1,0 +1,13 @@
+<div class="Catalog_Link">
+
+	{% assign sorted_category = site.categories | sort %}
+	<ul>
+	{% for category in sorted_category %}
+			{% if category[0] != null %}
+					{% assign c_name = category[0] %}
+					{% assign c_size = category[1].size %}
+					{% include taxonomy-item.html category_name = c_name category_size = c_size%}
+			{% endif %}
+	{% endfor %}
+	</ul>
+</div>

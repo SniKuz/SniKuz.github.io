@@ -1,0 +1,24 @@
+-Rakun's Side Bar 간단정리-
+1. config #Default -> sidebar: true
+2.sidebar.html에     {% include taxonomy-list.html category_name="Test" %} 추가(뒤 category_name= ~ 은 호출)
+3.includes/taxonomy-item.html 생성
+4.includes/taxonmy-list.html생성
+5._pages/Category에 이제 해당 카테고리 분류 md 만듬.
+---
+title           : "Default"
+layout          : category
+taxonomy        : "Default"
+permalink       : /default/
+---
+대충 이런구조인데 taxonmoy에서 카테고리 이름이면 됨
+구조는 카테고리 싹 읽어온 다음에 taxonomy에 정리해서 모으는거
+
+사이드바 색깔칠하기 -> _sass에 sidebar.scss에 맨 밑에 채우기 넣고
+taxonomy-item <code>로 감쌈
+side.html에서 <div>로 그 위에 만든거 감싸서 해준 것
+
+
+-----
+https://eastglow.github.io/%EA%B8%B0%ED%83%80/2018/07/05/Jekyll-posts-%ED%8E%98%EC%9D%B4%EC%A7%80%EC%9D%98-categories-%EC%A0%95%EB%A0%AC-%EC%88%9C%EC%84%9C-%EB%B0%94%EA%BE%B8%EA%B8%B0.html
+category sort
+taxonomy-list에 	{% assign sorted_category = site.categories | sort %} 로 정렬하고 넣음
