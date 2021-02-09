@@ -1,5 +1,5 @@
 ---
-title: "LeetCode - Median of Two Sorted Arrays(medium)"
+title: "LeetCode - Longest Palindromic Substring(medium)"
 excerpt: ""
 categories: [Algorithm]
 tag: [Algorithm]
