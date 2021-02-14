@@ -8,6 +8,7 @@ tag: [Algorithm]
 + Implement pow(x, n), which calculates x raised to the power n (i.e. xn).
 ---
 **Example**
+
 ```
 Input: x = 2.00000, n = 10
 Output: 1024.00000
@@ -22,12 +23,13 @@ Explanation: 2-2 = 1/22 = 1/4 = 0.25
 Input: x = 2.00000, n = -2147483648
 Output: 0
 ```
----
+
 + 문제 1차 풀이
   1. while로 양/음수일 때 각각 반복문을 진행 -> Error : x = 0.000001, n = 2147483647  Time Limited Exceed
   2. 재귀방식으로 변경. n%2==0, 1일때에 각각 재귀방식으로 /2씩 줄이며 진행 ->  x가 2, n이 -2147483648일 때  output이 Infinity가 나왔는데 문제 답은 0
   3. x가 Infinity일때 return 0 추가.
----
+
+
 ```
 //C#
 public class Solution {
