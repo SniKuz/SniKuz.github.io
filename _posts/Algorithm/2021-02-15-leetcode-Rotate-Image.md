@@ -10,9 +10,7 @@ tag: [Algorithm]
 + You have to rotate the image in-place, which means you have to modify the input 2D matrix directly. DO NOT allocate another 2D matrix and do the rotation.
 ---
 **Example**
-```
 
-```
 ---
 + 문제 1차 풀이
   1. 문제는 n x n 표를 오른쪽으로 회전할 때 모습. (i, j) -> (j, n-1-i)위치에 간다는 것을 알 수 있다.
@@ -41,6 +39,7 @@ public class Solution {
     }
 }
 ```
+
 + Runtime: 248 ms, faster than 38.10% of C# online submissions for Rotate Image.
 + Memory Usage: 30.8 MB, less than 84.22% of C# online submissions for Rotate Image.
 
