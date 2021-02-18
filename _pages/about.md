@@ -74,5 +74,6 @@ permalink: /about/
 + 배운점 : 최적화, 쉐이더 공부 등이 진짜 많이 필요하다. 알고리즘 공부도 더 하고 싶다. 앞에 내용들을 알지 못하기 때문인지 아쉬웠던 점이 많다. 아 개발공부 해야하는데 아 
 + 목표 : 전역 후에는 시간을 쏟아 제대로 된 게임 만들기. 아마 디펜스 게임 예정. 전역 후 지누님께 개발허락 여쭤보면서 어떤 게임 만들지도 같이 견해를 구하는게 좋은 것 같다.
 + 구글 플레이 스토어에 기억용으로 올려만 놓은 상태... 전역 후 팬게임이어서가 아니라 그냥 일반 유저가 플레이해도 재미있게 플레이하는 수준만큼 끌어올리면 방송날과 맞춰서 출시해서 시청자들도 즐길 수 있게 목표.<br><https://play.google.com/store/apps/details?id=com.Sn1Kuz.The_PIXEL>
++ 유튜브 영상 링크 - 저장(덕질) 기억을 위해 링크 남겨놓기 <https://www.youtube.com/watch?v=2zecvixEBTk>
 <center><img data-action="zoom" src='{{ "assets/images/aboutImg/J1NU_FanGame2.png" | relative_url }}' alt='absolute' style="zoom:55%;"></center>   
 <center><img data-action="zoom" src='{{ "assets/images/aboutImg/J1NUFanGame1.jpg" | relative_url }}' alt='absolute' style="zoom:50%;"></center>   
