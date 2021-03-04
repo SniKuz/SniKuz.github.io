@@ -22,3 +22,6 @@ side.html에서 <div>로 그 위에 만든거 감싸서 해준 것
 https://eastglow.github.io/%EA%B8%B0%ED%83%80/2018/07/05/Jekyll-posts-%ED%8E%98%EC%9D%B4%EC%A7%80%EC%9D%98-categories-%EC%A0%95%EB%A0%AC-%EC%88%9C%EC%84%9C-%EB%B0%94%EA%BE%B8%EA%B8%B0.html
 category sort
 taxonomy-list에 	{% assign sorted_category = site.categories | sort %} 로 정렬하고 넣음
+
+
+# 터미널로 Jekyll Serve를 치면 호스트로 테스트 가능.
